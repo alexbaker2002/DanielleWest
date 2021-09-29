@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Roboto&display=swap');
+
+ /* main>.container {
+    padding: 60px 15px 0;
+    margin-top: 5rem;
+}  */
+
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.title {
+    font-family: 'Bonheur Royale',
+    cursive;
+}
+
+.bold{
+    font-weight: 900;
+    font-size:larger;
+}
+
+body{
+   font-family: 'Roboto',
+   sans-serif;
+
+}
+/* default styles */
+.header{
+    
+    background-color: #c1c1ce; 
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(175, 44, 168) 90%)
+
+}
+/*Large screens*/
+@media only screen and (min-width: 992px) {
+    .header{
+        background-image: url("/img/DanielleWestLarge.png");
+        min-height: 480px;
+    }
+  
+}
+/*small screens*/
+@media only screen and (min-width: 576px) and (max-width:991px) {
+    .header {
+        background-image: url("/img/DaniellWestSmall.png");
+    }
+}
