@@ -1,2 +1,2 @@
-# Jill Preston Portfolio
-# DanielleWest
+# 
+# Danielle West Portfolio
