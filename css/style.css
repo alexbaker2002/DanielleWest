@@ -52,7 +52,7 @@ body{
     }
 }
 @media (orientation: landscape) {
-    .header .title {
-        padding-right: 1em;
+    .header .backDrop{
+    width:fit-content;
     }
 }
