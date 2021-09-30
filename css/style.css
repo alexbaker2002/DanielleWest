@@ -51,3 +51,8 @@ body{
         background-image: url("/img/DaniellWestSmall.png");
     }
 }
+@media (orientation: landscape) {
+    .header .backDrop {
+        
+    }
+}
